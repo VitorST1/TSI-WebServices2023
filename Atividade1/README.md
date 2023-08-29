@@ -1,0 +1,29 @@
+# Atividade - Integração de sistemas
+
+Este projeto contém uma implementação em Java de um webservice simples e um script Python para consumi-lo.
+
+## Estrutura
+
+O projeto contém a seguinte estrutura:
+
+- `PrimeiroWebservice`: Código fonte do webservice em Java
+- `client.py`: Script Python para consumir o webservice
+
+## Webservice Java
+
+O webservice Java disponibiliza uma lista de turmas codificada diretamente no código.
+
+Ele abre um socket na porta 5000 e fica aguardando conexões. Ao receber uma conexão, envia a lista de turmas e depois fecha a conexão.
+
+## Cliente Python
+
+O script `client.py` conecta-se ao webservice Java, recebe a lista de turmas e imprime o resultado.
+
+## Execução
+
+Para executar o projeto:
+
+1. Execute o webservice Java com a IDE de sua preferência.
+2. Execute o cliente Python: `python client.py`
+
+O cliente irá se conectar ao webservice e imprimir a lista de turmas.

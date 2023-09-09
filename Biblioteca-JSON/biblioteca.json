@@ -1,0 +1,45 @@
+{
+
+    "informacao": {
+
+        "nome": "Biblioteca Municipal de Barbacena",
+
+        "telefones": ["32 3333-3333", "32 9 9999-9999"]
+
+    },
+
+    "livros": {
+
+        "romance": [
+
+            {"titulo": "Dom Casmurro", "autor": "Machado de Assis", "copias": 10, "emprestados": 5},
+
+            {"titulo": "Quincas Borba", "autor": "Machado de Assis", "copias": 3, "emprestados": 3},
+
+            {"titulo": "O Cortiço", "autor": "Aluísio Azevedo", "copias": 3, "emprestados": 0}
+
+        ],
+
+        "tecnologia": [
+
+            {"titulo": "Java: como programar", "autor": "Deitel", "copias": 5, "emprestados": 4},
+
+            {"titulo": "JavaScript: O Guia Definitivo", "autor": "David Flanagan", "copias": 5, "emprestados": 1},
+
+            {"titulo": "C: como programar", "autor": "Deitel", "copias": 1, "emprestados": 1}
+
+        ],
+
+        "autoajuda": [
+
+            {"titulo": "O Segredo", "autor": "Rhonda Byrne", "copias": 2, "emprestados": 0},
+
+            {"titulo": "O Milagre da Manhã", "autor": "Hal Elrod", "copias": 5, "emprestados": 5},
+
+            {"titulo": "Como Fazer Amigos e Influenciar Pessoas", "autor": "Dale Carnegie", "copias": 15, "emprestados": 8}
+
+        ]
+
+    }
+
+}

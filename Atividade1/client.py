@@ -38,7 +38,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     while True:
         aux = s.recv(BUFFER)
 
-        if not aux or aux == b'\r\n':
+        if not aux or aux == b'\n' or aux == b'\r\n':
             break
 
         data += aux

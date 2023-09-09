@@ -49,8 +49,9 @@ public class Webservice {
 	        
             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
             String lideres_JSON = in.readLine();
-            	
-            setarLideres(lideres_JSON, turmas);
+            
+            if(lideres_JSON != null && !lideres_JSON.isBlank())
+            	setarLideres(lideres_JSON, turmas);
            
             saida.close();
             in.close();

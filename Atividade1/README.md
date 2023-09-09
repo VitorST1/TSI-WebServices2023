@@ -1,6 +1,6 @@
 # Atividade - Integração de sistemas
 
-Este projeto contém uma implementação em Java de um webservice simples e um script Python para consumi-lo.
+Este projeto contém uma implementação em Java de um webservice simples e um script Python para consumi-lo.  
 v2 - Dados são transmitidos utilizando JSON como linguagem de interoperabilidade.
 
 ## Estrutura
@@ -27,5 +27,5 @@ Para executar o projeto:
 1. Execute o webservice Java com a IDE de sua preferência.
 2. Execute o cliente Python: `python client.py`
 
-O cliente irá se conectar ao webservice e imprimir a lista de turmas com seus líderes.
+O cliente irá se conectar ao webservice e imprimir a lista de turmas com seus líderes.  
 Após conexão estabelecida com o cliente, o servidor irá imprimir o nome e líder de cada disciplina.

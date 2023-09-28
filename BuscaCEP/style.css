@@ -9,6 +9,7 @@ h1 {
 form {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 form span {
     display: flex;
@@ -27,7 +28,7 @@ select, input, button {
 .flex-grow {
     flex-grow: 1;
 }
-.tableWrapper {
+#tableWrapper {
     text-align: center;
 }
 .table {
